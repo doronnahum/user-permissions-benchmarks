@@ -1,0 +1,3 @@
+p, user, posts, read
+p, user, comments, create
+p, user, delete, comments

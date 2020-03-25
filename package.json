@@ -1,21 +1,23 @@
 {
-  "name": "check-abilities-benchmarks",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@casl/ability": "^3.4.0",
-    "acl": "^0.4.11",
-    "benchmark": "^2.1.4",
-    "cancan": "^3.1.0",
-    "check-abilities": "^0.1.2",
-    "rbac": "^5.0.3",
-    "role-acl": "^4.3.3"
-  }
+	"name": "user-permissions-benchmarks",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"start-dev": "node -e 'require('./index').demo()'",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@casl/ability": "^3.4.0",
+		"acl": "^0.4.11",
+		"benchmark": "^2.1.4",
+		"cancan": "^3.1.0",
+		"casbin": "^4.1.1",
+		"user-permissions": "^0.1.0",
+		"rbac": "^5.0.3",
+		"role-acl": "^4.3.3"
+	}
 }
